@@ -9,7 +9,7 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/liga-manager">
       <div className="min-h-screen bg-slate-950 text-white">
         <Navbar />
 
