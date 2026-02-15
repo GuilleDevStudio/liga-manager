@@ -14,8 +14,8 @@ const Estadisticas = () => {
           ImagenURL,
           Goles,
           Asistencias,
-          TarjetasAmarillas,
-          TarjetasRojas
+          TA,
+          TR
         `)
         .order("Goles", { ascending: false })
         .limit(10);
