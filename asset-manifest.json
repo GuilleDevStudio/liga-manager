@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/liga-manager/static/css/main.2a9da2ca.css",
+    "main.js": "/liga-manager/static/js/main.22138df7.js",
+    "static/js/453.4e3220dc.chunk.js": "/liga-manager/static/js/453.4e3220dc.chunk.js",
+    "index.html": "/liga-manager/index.html",
+    "main.2a9da2ca.css.map": "/liga-manager/static/css/main.2a9da2ca.css.map",
+    "main.22138df7.js.map": "/liga-manager/static/js/main.22138df7.js.map",
+    "453.4e3220dc.chunk.js.map": "/liga-manager/static/js/453.4e3220dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a9da2ca.css",
+    "static/js/main.22138df7.js"
+  ]
+}
