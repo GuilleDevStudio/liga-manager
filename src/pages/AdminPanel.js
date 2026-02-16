@@ -364,8 +364,8 @@ function SeccionJugadores({ jugadores, equipos, posiciones, onCrear, onEditar, o
 
       {/* Modal Editar Jugador */}
       {jugadorEdit && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-slate-800 p-6 rounded-2xl w-full max-w-md flex flex-col gap-3">
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-2">
+          <div className="bg-slate-800 sm:p-6 p-4 rounded-2xl w-full max-w-md max-h-[90vh] overflow-y-auto flex flex-col gap-3">
             <h2 className="text-xl font-semibold mb-4">Editar Jugador</h2>
 
             <label className="text-sm text-slate-300">Nombre</label>
