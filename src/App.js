@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 import Clasificacion from "./pages/Clasificacion";
@@ -9,7 +9,7 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <Router basename="/liga-manager">
+    <Router>
       <div className="min-h-screen bg-slate-950 text-white">
         <Navbar />
 
